@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-07T12:42:02 CDT" name="EbankingTest" finished-at="2021-06-07T12:42:05 CDT" duration-ms="3172">
+    <groups>
+    </groups>
+    <test started-at="2021-06-07T12:42:02 CDT" name="BankingApp Test" finished-at="2021-06-07T12:42:05 CDT" duration-ms="3172">
+      <class name="Guru99.TestCases.TC_Login001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Guru99.TestCases.TC_Login001@4fb0f2b9]" started-at="2021-06-07T12:42:02 CDT" name="setup" finished-at="2021-06-07T12:42:05 CDT" duration-ms="2530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:Guru99.TestCases.TC_Login001@4fb0f2b9]" started-at="2021-06-07T12:42:05 CDT" name="logintest" finished-at="2021-06-07T12:42:05 CDT" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- Guru99.TestCases.TC_Login001 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- EbankingTest -->
+</testng-results>

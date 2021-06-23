@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EbankingTest">
+
+<listeners>
+<listener class-name="Guru99.Utilities.Reporting"/>
+</listeners>
+	
+
+  <test  name="BankingApp Test">
+  <parameter name="browser" value="Mozilla"/>
+    <classes>
+      <class name="Guru99.TestCases.TC_Login001"/>
+    </classes>
+ </test> 
+</suite> 
